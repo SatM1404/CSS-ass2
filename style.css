@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(./bg.jpg);
+}
+div.main{
+    display: flex;
+}
+
+.box1{
+    width: 400px;
+    height: 100px;
+    background-color: black;
+    color: beige;
+    border: 2px solid red;
+    border-radius: 20px;
+    display: flex;
+    text-align: center;
+    margin: 30px;
+
+}
+    h2{
+        margin: 20px;
+    }
+
+
+div.box2{
+    color: beige;
+    border: 2px solid red;
+    width: 400px;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    margin: 30px;
+    text-align: center;
+    border-radius: 20px;
+}
+.box3{
+    color: beige;
+    border: 2px solid red;
+    width: 400px;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    margin: 30px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.circle{
+    border: 5px solid blue;
+    border-radius: 50%;
+    height: 300px;
+    width: 350px;
+    margin: 95px 45px;
+    color: white;
+    font-size: 14px;
+    
+    text-decoration: underline;
+    
+}
+
+.circle h3{
+    margin: 29px 30px;
+    text-align: center;
+    
+}
+ hr{
+    margin: 0 15px;
+}
+
+.main2{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.form {
+    
+    height: 625px;
+    width: 35%;
+    text-align: center;
+    border: 5px dotted pink;
+    background-color: aliceblue;
+    
+}
+
+.menu{
+    height: 70px;
+    width: 700px;
+    text-align: center;
+    border: 3px solid red;
+    background-color: black;
+    color: wheat;
+    border-radius: 40px;
+    margin: 26px 300px;
+    
+}
+
+.menu1{
+    height: 200px;
+    width: 25%;
+    text-align: center;
+    border: 3px solid rgb(48, 138, 202);
+    background-color: rgb(57, 88, 118);
+    color: rgb(29, 27, 23);
+    border-radius: 40px;
+
+}
+.menu2{
+    height: 200px;
+    width: 25%;
+    text-align: center;
+    border: 3px solid rgb(48, 138, 202);
+    background-color: rgb(57, 88, 118);
+    color: rgb(29, 27, 23);
+    border-radius: 40px;
+
+}
+.menu3{
+    height: 200px;
+    width: 25%;
+    text-align: center;
+    border: 3px solid rgb(48, 138, 202);
+    background-color: rgb(57, 88, 118);
+    color: rgb(29, 27, 23);
+    border-radius: 40px;
+
+}
+.food{
+    display: flex;
+    justify-content: space-around;
+}
+
+ul{
+    color: aqua;
+    margin: 5px 138px;
+}
+.food1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+h4{
+    color: aqua;
+}
